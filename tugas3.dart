@@ -20,7 +20,7 @@ void main(){
     print("Saya suka $item");
   }
 
-  List<String> daftarBelanja = ["roti", "susu", "telur", "gula"];
+  List<String> daftarBelanja = ["beras", "susu", "telur", "gula"];
   daftarBelanja.forEach((item) {
     print("Item ke-${daftarBelanja.indexOf(item)+1}: $item");
   });
